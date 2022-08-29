@@ -9,7 +9,7 @@ public class movimientoDinero extends empleado {
     public int montoNegativo;
     public String descripcionMovimiento;
 
-    public empleado;
+    public empleado nombreempleado;
 
     public movimientoDinero(movimientoDinero movDine1, int movimiento, int montoPositivo, int montoNegativo, String descripcionMovimiento, String ususario) {
         this.movDine1 = movDine1;
