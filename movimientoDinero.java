@@ -1,6 +1,6 @@
 
 
-public class movimientoDinero extends empleado {
+public class movimientoDinero extends empleado{
 
     movimientoDinero movDine1 = new movimientoDinero();
 
