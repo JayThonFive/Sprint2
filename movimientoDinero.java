@@ -1,4 +1,6 @@
-public class movimientoDinero {
+
+
+public class movimientoDinero extends empleado {
 
     movimientoDinero movDine1 = new movimientoDinero();
 
@@ -6,7 +8,8 @@ public class movimientoDinero {
     public int montoPositivo;
     public int montoNegativo;
     public String descripcionMovimiento;
-    public String Ususario;
+
+    public empleado;
 
     public movimientoDinero(movimientoDinero movDine1, int movimiento, int montoPositivo, int montoNegativo, String descripcionMovimiento, String ususario) {
         this.movDine1 = movDine1;
@@ -14,7 +17,7 @@ public class movimientoDinero {
         this.montoPositivo = montoPositivo;
         this.montoNegativo = montoNegativo;
         this.descripcionMovimiento = descripcionMovimiento;
-        Ususario = ususario;
+
     }
 
     public movimientoDinero() {
@@ -61,11 +64,4 @@ public class movimientoDinero {
         this.descripcionMovimiento = descripcionMovimiento;
     }
 
-    public String getUsusario() {
-        return Ususario;
-    }
-
-    public void setUsusario(String ususario) {
-        Ususario = ususario;
-    }
 }
