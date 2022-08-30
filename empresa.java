@@ -1,14 +1,11 @@
 public class empresa {
 
-    empresa empre1 = new empresa();
-
     public String nombreEmpresa;
     public String direccionEmpresa;
     public int telefonoEmpresa;
     public int nitEmpresa;
 
-    public empresa(empresa empre1, String nombreEmpresa, String direccionEmpresa, int telefonoEmpresa, int nitEmpresa) {
-        this.empre1 = empre1;
+    public empresa(String nombreEmpresa, String direccionEmpresa, int telefonoEmpresa, int nitEmpresa) {
         this.nombreEmpresa = nombreEmpresa;
         this.direccionEmpresa = direccionEmpresa;
         this.telefonoEmpresa = telefonoEmpresa;
@@ -19,13 +16,6 @@ public class empresa {
 
     }
 
-    public empresa getEmpre1() {
-        return empre1;
-    }
-
-    public void setEmpre1(empresa empre1) {
-        this.empre1 = empre1;
-    }
 
     public String getNombreEmpresa() {
         return nombreEmpresa;

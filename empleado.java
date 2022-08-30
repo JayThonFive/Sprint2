@@ -1,50 +1,53 @@
-public class empleado extends empresa {
+public class empleado {
 
-    empleado emple1 = new empleado();
+    empresa idEmpresa = new empresa();
 
-    public String nombreEmplaedo;
-    public String correoEpleado;
-
-    public empresa empresaEmpleado;
+    public String nombreEmpleado;
+    public String correoEmpleado;
     public String rolEmpleado;
 
-    public empleado(empleado emple1, String nombreEmplaedo, String correoEpleado, String rolEmpleado) {
-        this.emple1 = emple1;
-        this.nombreEmplaedo = nombreEmplaedo;
-        this.correoEpleado = correoEpleado;
+    public empleado(empresa idEmpresa, String nombreEmpleado, String correoEpleado, String rolEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.correoEmpleado = correoEpleado;
         this.rolEmpleado = rolEmpleado;
     }
 
     public empleado() {
 
+        idEmpresa.getNombreEmpresa();
+
     }
 
-    public empleado getEmple1() {
-        return emple1;
+    public empresa getIdEmpresa() {
+        return idEmpresa;
     }
 
-    public void setEmple1(empleado emple1) {
-        this.emple1 = emple1;
+    public void setIdEmpresa(empresa idEmpresa) {
+        this.idEmpresa = idEmpresa;
     }
 
-    public String getNombreEmplaedo() {
-        return nombreEmplaedo;
+    public String getNombreEmpleado() {
+        return nombreEmpleado;
     }
 
-    public void setNombreEmplaedo(String nombreEmplaedo) {
-        this.nombreEmplaedo = nombreEmplaedo;
+    public void setNombreEmpleado(String nombreEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
     }
 
     public String getCorreoEpleado() {
-        return correoEpleado;
+        return correoEmpleado;
     }
 
     public void setCorreoEpleado(String correoEpleado) {
-        this.correoEpleado = correoEpleado;
+        this.correoEmpleado = correoEpleado;
     }
 
     public String getRolEmpleado() {
         return rolEmpleado;
+    }
+
+    public void setCorreoEmpleado(String correoEmpleado) {
+        this.correoEmpleado = correoEmpleado;
     }
 
     public void setRolEmpleado(String rolEmpleado) {
