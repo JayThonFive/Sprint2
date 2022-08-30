@@ -1,7 +1,6 @@
 
 
 public class movimientoDinero extends empleado {
-
     movimientoDinero movDine1 = new movimientoDinero();
 
     public int movimiento;
